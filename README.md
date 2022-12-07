@@ -8,7 +8,7 @@ See the details below for understanding the concepts behind, if you are a comple
 
    > `git clone <repo-url>`
 
-2. Install all the npm packages
+2. Go to the folder
 
    > `cd basic-html-css-portfolio`
 
