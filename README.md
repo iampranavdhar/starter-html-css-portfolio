@@ -2,6 +2,8 @@
 
 See the details below for understanding the concepts behind, if you are a complete beginner.
 
+<img width="1470" alt="image" src="https://user-images.githubusercontent.com/73348574/219570911-1f5f09fe-0bc8-4796-8a75-ba51272f7c3d.png">
+
 ### Setup
 
 1. First clone the repo

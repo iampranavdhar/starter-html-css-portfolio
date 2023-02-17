@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* scroll when clicked smoothly */
+html {
+  scroll-behavior: smooth;
+}
+
 .home {
   width: 100vw;
   height: 100vh;
@@ -6,18 +17,17 @@
   background-image: url("./bgimage.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
+/* overlay on the image */
 .overlay {
-  background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
-}
-
-body {
-  margin: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .home-content {
@@ -25,33 +35,92 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.home-img {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.home-img img {
-  border-radius: 50%;
+  justify-content: center;
 }
 
 .name {
-  color: #fff;
-  font-size: 40px;
+  font-size: 2rem;
+  color: white;
+  margin: 1rem 0 0 0;
+}
+
+.role {
+  font: 1.5rem;
+  color: #8d8d8d;
   margin: 0;
 }
 
-.description {
-  color: gray;
-  font-size: 25px;
-  margin: 0;
+.home-img img {
+  width: 25vw;
+  min-width: 200px;
+  height: 25vw;
+  min-height: 200px;
+  border-radius: 50%;
 }
 
-.button {
-  background-color: transparent;
-  color: #fff;
-  border: 1px solid white;
-  margin-top: 32px;
-  padding: 12px;
+.more-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8d8d8d;
+  max-width: 150px;
+  margin: auto;
   border-radius: 5px;
+  margin-top: 4rem;
   cursor: pointer;
+}
+
+.more-option a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.about {
+  width: 100vw;
+  height: 60vh;
+  background-color: #242424;
+  padding-top: 4rem;
+}
+
+.about-content {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.about-img img {
+  max-width: 250px;
+  border-radius: 5px;
+}
+
+.heading {
+  font-size: 2.25rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.about-description {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 2.5rem;
+  margin: 0;
+  color: white;
+  max-width: 600px;
 }
