@@ -10,7 +10,7 @@ See the details below for understanding the concepts behind, if you are a comple
 
    > `git clone <repo-url>`
 
-2. Go to the folder
+2. Go to the cloned folder
 
    > `cd basic-html-css-portfolio`
 
